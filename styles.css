@@ -1,5 +1,5 @@
 * {
-    font-family: "Cousine", Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
@@ -18,22 +18,29 @@ h2 {
     padding: 15px;
 }
 
-.about {
+p .about {
     font-size: 14px;
     line-height: 1.2;
 }
 
 #nav {
-    background-color: #efefef;
-    padding: 10px 0 5px 0;
-    text-align: center;
+    background-color: #efefef58;
+    padding: 10 0 10 0;
+    text-align: left;
+    position: relative;
+    margin-top: 0;
 }
-
-li {
-    display: inline;
-    padding: 5px;
+li{
+    background-color: #efefef3b;
 }
-
+column1{
+    min-width: 25%;
+    max-width: auto;
+}
+column2{
+    min-width: 70%;
+    max-width: auto;
+}
 figcaption {
     font-style: italic;
     text-align: center;
@@ -51,7 +58,8 @@ img {
 }
 
 table {
-    padding: 20px;
+    padding: 10px;
+    border: 1px solid #000;
 }
 
 thead {
@@ -65,4 +73,9 @@ td {
 .code {
     font-family: monospace, sans-serif;
     font-size: 14px;
+}
+
+footer {
+    background-color: gray;
+    padding: 0.5em 0.5em;
 }
